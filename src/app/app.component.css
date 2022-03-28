@@ -1,0 +1,59 @@
+h2 {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 0;
+    text-decoration: underline;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgba(0, 0, 0, 0.548);
+    color: #fff;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.493);
+    padding: 10px;
+    border-radius: 10px;
+
+    /*Size*/
+    height: auto;
+    max-width: 500px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.title {
+    /* background-color: aqua; */
+    padding: 1px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.input {
+    /* background-color: blueviolet; */
+    padding: 15px;
+    text-align: center;
+}
+.input input {
+    padding: 5px;
+    border-radius: 5px;
+    width: 85%;
+}
+
+.list {
+    /* background-color: cadetblue; */
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    font-size: 20px;
+}
+.list button {
+    margin-left: 15px;
+}
